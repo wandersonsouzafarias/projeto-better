@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.jumbotron	{
+    background-image:	url(../img/vitrine.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.social a {
+    display: block;
+    width: 36px;
+    height: 36px;
+    text-indent: -9999px;
+}
+
+.social li {
+    display: inline-block;
+    margin-left: 1em;
+}
+
+.social a.facebook[href='#'] {
+    background: url(../img/icone-face.png);
+    background-size: 36px 36px;
+}
+
+.social a.twitter[href='#'] {
+    background: url(../img/icone-twitter.png);
+    background-size: 36px 36px;
+}
+
+.social a.instagram[href='#'] {
+    background: url(../img/icone-insta.png);
+    background-size: 36px 36px;
+}
+

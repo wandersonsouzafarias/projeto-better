@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    
+    <title>Better - Fotos de graça e pagas</title>
+    
+    <!--Link CSS-->
+    <link rel="stylesheet" href="css/better-tema.css">
+    <!--LINK BOOTSTRAP-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-sm	navbar-light	bg-light">
+      <div class="container"><!--A class container centralizou o menu ao meio da página. Se eu quiser que o menu ocupe todo o espaço de largura eu posso usar a class container-fluid.-->
+      <a href="#" class="navbar-brand">Better</a><!--A class navbar-brand tirar aquela cor azul padrão dos links.-->
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"><!--A class navbar-toggler da estilo ao botão.-->
+        Menu
+      </button>
+       
+        <!--A class collapse navbar-collapse faz o menu desaparecer quando a tela está pequena. O ID navbarSupportedContent faz o efeito de abrir e fechar do menu. Logo para ele funcionar eu devo colocar antes do body o link do jquery.js.-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav	mr-auto">
+
+            <li class="dropdown"><!--Estou criando um menu dentro do outro para isso estou colocando uma ul dentro do li. A classe dropdown faz com que os itens do menu suspenso apareça exatamente embaixo do descubra ao clicar no mesmo.-->
+              <a	href="#" class="nav-link	dropdown-toggle" id="navbar
+                DropdownMenuLink" data-toggle="dropdown">Descubra</a><!--A classe data-toggle faz com que o menu dropdown apareça quando eu clicar no item Descubra. A classe dropdown-toggle adiciona a setinha para baixo ao lado do menu Descubra para indicar que é um menu dropdown.-->
+              <ul class="dropdown-menu"><!--A classe dropdown-menu esconde os itens dos elementos do dropdown, que no caso são os li a baixos.-->
+                	<li><a href="#" class="dropdown-item">Paisagem</a></li><!--A classe dropdown define que é um menu suspenso.-->
+                  <li><a	href="#" class="dropdown-item">Tecnologia</a></li>
+                  <li><a	href="#" class="dropdown-item">Comida</a></li>
+                  <li><a	href="#" class="dropdown-item">Abstrato</a></li><li	class="dropdown-divider"></li><!--Toda essa linha de li faz com que apareça uma linha de divisória abaixo do meu item dropdown Abstrato.-->
+                  <li><a	href="#" class="dropdown-item">Animais</a></li>
+                  <li><a	href="#" class="dropdown-item">Comida</a></li>
+                  <li><a	href="#" class="dropdown-item">Pessoas</a></li>
+              </ul>
+            </li>
+            <li><a href="#" class="nav-link">Preços</a></li>
+            <li><a href="#" class="nav-link">Cadastra-se</a></li>
+            <li><a href="#" class="nav-link">Login</a></li>
+          </ul>
+        </div><!--	fim	.collapse	-->
+      </div> <!--	fim	.container	-->
+    </nav>
+
+  <main>
+    <section class="jumbotron"><!--A classe jumbotron da destaque a algo importante. Ele aumenta o tamanho dos elementos dando destaques a eles.-->
+      <div class="container">
+        <h1>Momentos perfeitos</h1>
+        <p>Mais de 17 yottabytes de fotos.</p>
+        <form class="input-group"><!--A classe input-group coloca o input e button lado a lado. Mas para isso eu preciso colocar o input-group-btn na tag span.-->
+          <input type="search" class="form-control" placeholder="Encontre o que você procura..."><!--A classe form-control aumenta o tamanho do input e o deixa com as bordas arredondadas.-->
+          <span class="input-group-btn"><!--A classe input-group coloca o input e button lado a lado.-->
+            <button class="btn btn-primary">Pesquisar</button>
+          </span>
+        </form>
+      </div>
+    </section><!-- fim .jumbotron-->
+
+      <section class="container">
+        <h2 class="text-center">
+          Imagens bonitas, lindas e perfeitas
+        </h2>
+        <h3 class="text-center">
+          Lorem ipsum dolor sit amet consectetur
+        </h3>
+
+        <div class="row"><!--Coloque todos os âncoras com as imagens dentro desta div com a class row para colocar todos em linha.-->
+          <a href="#" class="col-sm-6 col-md-4 col-lg-3">
+            <figure>
+              <img class="img-fluid img-thumbnail" src="img/girassois.jpg" alt="girassóis no campo"><!--A classe img-fluid img-thumbnail faz com que a minha imagem fique responsiva e coloca uma moldura suave a minha imagem.-->
+              <figcaption>
+                girassóis
+              </figcaption>
+            </figure>
+          </a>
+        
+          <a href="#" class="col-sm-6 col-md-4 col-lg-3">
+            <figure>
+              <img  class="img-fluid img-thumbnail" src="img/garota-silhueta.jpg" alt="Silhueta garota">
+              <figcaption>
+                Silhueta garota
+              </figcaption>
+            </figure>
+          </a>
+       
+          <a href="#" class="col-sm-6 col-md-4 col-lg-3">
+            <figure>
+              <img  class="img-fluid img-thumbnail" src="img/mesa-designer.jpg" alt="Típica	mesa de um designer">
+              <figcaption>
+                Mesa	de	designer
+              </figcaption>
+            </figure>
+          </a>
+      
+          <a href="#" class="col-sm-6 col-md-4 col-lg-3">
+            <figure>
+              <img  class="img-fluid img-thumbnail" src="img/pipoca.jpg" alt="Pipoca">
+              <figcaption>
+                Pipoca
+              </figcaption>
+            </figure>
+          </a>
+        
+          <a href="#" class="col-sm-6 col-md-4 col-lg-3">
+            <figure>
+              <img  class="img-fluid img-thumbnail" src="img/garota-feliz.jpg" alt="Mulher feliz">
+              <figcaption>
+                Mulher feliz
+              </figcaption>
+            </figure>
+          </a>
+      
+          <a href="#" class="col-sm-6 col-md-4 col-lg-3">
+            <figure>
+              <img  class="img-fluid img-thumbnail" src="img/sunset.jpg" alt="Pôr do sol">
+              <figcaption>
+                Pôr do sol
+              </figcaption>
+            </figure>
+          </a>
+
+          <a href="#" class="col-sm-6 col-md-4 col-lg-3">
+            <figure>
+              <img  class="img-fluid img-thumbnail" src="img/ciclista.jpg" alt="Ciclista">
+              <figcaption>
+                Ciclista
+              </figcaption>
+            </figure>
+          </a>
+
+          <a href="#" class="col-sm-6 col-md-4 col-lg-3">
+            <figure>
+              <img  class="img-fluid img-thumbnail" src="img/cabra.jpg" alt="Cabra">
+              <figcaption>
+                Cabra
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+      </section>
+
+      <section class="hall bg-dark text-light pt-4"><!--A class bg-dark coloca um background-color cinza. A class text-light é para deixar os textos com a cor white. A class pt-sm-4 é para dar redimensionamento do padding o pt significa padding-top o 4 é o tamanho do padding.-->
+        <div class="container">
+          <div class="row d-flex align-items-center"><!--A classe d-flex liga o modo flexbox. A class align-items-center centraliza o conteúdo verticalmente.-->
+            <div class="col-lg-6">
+              <h1>Hall da fama do mês de janeiro</h1>
+              <p>Por votação do público e número de downloads, escolhemos todo mês as fotografias mais baixadas do mês anterior e disponibilizamos de graça.</p>
+              <button class="btn btn-lg btn-primary">Quero votar!
+              </button>
+            </div>
+            
+              <figure class="col-lg-6 mt-4"><!--A class mt-4 é para configurar o margin-top da imagem. Ele vai dar a distância da imagem quando a tela for pequena.-->
+                <img class="img-fluid img-thumbnail" src="img/girassois.jpg" alt="Girassóis	no	campo">
+                <figcaption>
+                  Girassóis
+                </figcaption>
+              </figure>
+            
+          </div><!--fim	.row hall-->
+        </div><!--fim	.container hall-->
+      </section>
+
+      <section class="reviews container pt-5">
+        <h1 class="mb-3">
+          Reviews
+        </h1>
+        <div class="row">
+          <div class="media col-md-6">
+            <img src="https://dummyimage.com/64x64/000000/fff" alt="Roberto
+            Ford" class="mr-3"><!--A class mr-3 é para colocar um margin-right na imagem, para afastar o texto um pouco da imagem. O mr significa margin-right.-->
+            <div class="media-body">
+              <h2 class="h5">Roberto Ford</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nulla, nemo nihil quas similique quisquam nostrum, ducimus iusto, ea corporis et molestiae illo. Eaque, culpa nam consequuntur debitis hic officiis.</p>
+            </div>
+          </div>
+
+          <div class="media col-md-6">
+            <img src="https://dummyimage.com/64x64/000000/fff" alt="Roberto
+            Ford" class="mr-3"><!--A class mr-3 é para colocar um margin-right na imagem, para afastar o texto um pouco da imagem. O mr significa margin-right.-->
+            <div class="media-body">
+              <h2 class="h5">Roberto Ford</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nulla, nemo nihil quas similique quisquam nostrum, ducimus iusto, ea corporis et molestiae illo. Eaque, culpa nam consequuntur debitis hic officiis.</p>
+            </div>
+          </div>
+
+          <div class="media col-md-6">
+            <img src="https://dummyimage.com/64x64/000000/fff" alt="Roberto
+            Ford" class="mr-3"><!--A class mr-3 é para colocar um margin-right na imagem, para afastar o texto um pouco da imagem. O mr significa margin-right.-->
+            <div class="media-body">
+              <h2 class="h5">Roberto Ford</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nulla, nemo nihil quas similique quisquam nostrum, ducimus iusto, ea corporis et molestiae illo. Eaque, culpa nam consequuntur debitis hic officiis.</p>
+            </div>
+          </div>
+
+          <div class="media col-md-6">
+            <div class="media ">
+            <img src="https://dummyimage.com/64x64/000000/fff" alt="Roberto
+            Ford" class="mr-3"><!--A class mr-3 é para colocar um margin-right na imagem, para afastar o texto um pouco da imagem. O mr significa margin-right.-->
+            <div class="media-body">
+              <h2 class="h5">Roberto Ford</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nulla, nemo nihil quas similique quisquam nostrum, ducimus iusto, ea corporis et molestiae illo. Eaque, culpa nam consequuntur debitis hic officiis.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container planos pt-4 pb-4">
+        <h1>Plano para todos os bolsos:</h1>
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card text-center">
+              <h2 class="card-header text-uppercase">Silver</h2><!--A class
+              card-header separa o meu título do card. A class text-uppercase coloca todo o texto em maiúscula.-->
+              <div class="card-body">
+                <p>19,90</p>
+                <ul class="list-group list-group-flush mb-2"><!--A class list-group-flush retirar as bordas colocadas pela class list-group-item colocadas nos li. Só deixa a linha de baixo.-->
+                  <li class="list-group-item">150 fotos</li><!--A class tira as bolinhas da frente do texto e colocar as bordas no conteúdo.-->
+                  <li class="list-group-item">3 adesivos</li>
+                  <li class="list-group-item">X camisetas</li>
+                </ul>
+                <button class="btn btn-primary btn-lg">
+                  Quero este!
+                </button>
+              </div>
+            </div>
+          </div><!--fim	plano	silver-->
+          
+          <div class="col-md-4">
+            <div class="card text-center">
+                <!--Conteúdo do	plano	Crystal-->
+              <h2 class="card-header text-uppercase bg-primary text-light">CRYSTAL</h2><!--A class
+              card-header separa o meu título do card. A class text-uppercase coloca todo o texto em maiúscula.A class bg-primary deixa o cabeçalho todo azul. A class text-light deixa o texto branco.-->
+              <div class="card-body">
+                <p>99,90</p>
+                <ul class="list-group list-group-flush mb-2"><!--A class list-group-flush retirar as bordas colocadas pela class list-group-item colocadas nos li. Só deixa a linha de baixo.-->
+                  <li class="list-group-item">17.000fotos</li><!--A class tira as bolinhas da frente do texto e colocar as bordas no conteúdo.-->
+                  <li class="list-group-item">42 adesivos</li>
+                  <li class="list-group-item">1 camiseta</li>
+                </ul>
+                <button class="btn btn-primary btn-lg">
+                  Quero este!
+                </button>
+              </div>
+            </div>
+          </div><!--fim	plano	crystal-->
+
+          <div class="col-md-4">
+            <div class="card text-center">
+              <!--Conteúdo do plano	Gold-->
+            <h2 class="card-header text-uppercase">GOLD</h2><!--A class
+            card-header separa o meu título do card. A class text-uppercase coloca todo o texto em maiúscula.-->
+            <div class="card-body">
+              <p>49,90</p>
+              <ul class="list-group list-group-flush mb-2"><!--A class list-group-flush retirar as bordas colocadas pela class list-group-item colocadas nos li. Só deixa a linha de baixo.-->
+                <li class="list-group-item">3.000 fotos</li><!--A class tira as bolinhas da frente do texto e colocar as bordas no conteúdo.-->
+                <li class="list-group-item">15 adesivos</li>
+                <li class="list-group-item">X camisetas</li>
+              </ul>
+              <button class="btn btn-primary btn-lg">
+                Quero este!
+              </button>
+            </div>
+            </div>
+          </div><!--fim	plano	gold-->
+        </div><!--fim	.row-->
+      </section>
+    </main>
+
+    <footer class="bg-secondary pt-4 pb-4">
+      <div class="container d-flex justify-content-between align-items-center"><!--A class d-flex é a class de flexbox que deixa os elementos posicionados corretamente na página.-->
+        <span>
+          &copy; 2024 Todos os direitos reservados
+        </span>
+
+        <ul class="social">
+          <li><a href="#" class="text-hide facebook">Facebook</a></li><!--A class text-hide faz o texto sumir para a imagem tomar o lugar.-->
+          <li><a href="#" class="text-hide twitter">Twitter</a></li>
+          <li><a href="#" class="text-hide instagram">Instagram</a></li>
+        </ul>
+      </div>
+    </footer>
+
+
+    <!--Chamando o arquivo Jquery.js-->
+    <script src="js/jquery.js"></script>
+    <!--Chamando o arquivo JS do Bootstrap-->
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
